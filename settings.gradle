@@ -1,0 +1,11 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+        maven { url 'https://androidx.dev/snapshots/builds/7172350/artifacts/repository' }
+    }
+}
+rootProject.name = "BottomFragmentComposeView"
+include ':app'
